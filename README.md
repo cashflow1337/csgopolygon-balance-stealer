@@ -1,6 +1,6 @@
 # CSGOPolygon.com balance stealer
 
-GLB <3
+## Works 7. Feb 2022
 
 Bypasses tip confirmation screen
 
